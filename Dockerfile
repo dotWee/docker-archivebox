@@ -7,7 +7,7 @@
 #     docker run -v "$PWD/data":/data -it archivebox manage createsuperuser
 #     docker run -v "$PWD/data":/data -p 8000:8000 archivebox server
 
-FROM python:3.8-slim-buster
+FROM python:3.8-buster
 
 LABEL name="archivebox" \
     maintainer="Nick Sweeting <archivebox-docker@sweeting.me>" \
